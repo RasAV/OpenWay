@@ -1,0 +1,209 @@
+* {
+  margin: 0px;
+  padding: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.input_form {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: absolute;
+  left: 30%;
+}
+
+#in_fio {
+  position: absolute;
+  top: 10%;
+  width: 60%;
+  font-size: 16px;
+}
+
+#in_text {
+  position: absolute;
+  top: 18%;
+  width: 60%;
+  font-size: 16px;
+}
+
+.input_form input {
+  width: 60%;
+  font-size: 16px;
+}
+
+.input_form textarea {
+  width: 60%;
+  height: 150px;
+  font-size: 16px;
+}
+
+.adm_form {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 40%;
+}
+
+.adm_form input {
+  font-size: 16px;
+}
+
+#adm_log {
+  position: absolute;
+  top: 1%;
+}
+
+#adm_pas {
+  position: absolute;
+  top: 10%;
+}
+
+#adm_mess {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%  кнопки  %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+#form_button {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 6px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+  font-size: 25px;
+
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+#form_button:hover { background: rgb(53, 167, 110); }
+#form_button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+
+#admin_button {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 6px;
+  background-color: rgb(171, 82, 249);
+  box-shadow: 0 -3px rgb(136, 37, 219) inset;
+  transition: 0.2s;
+
+  position: absolute;
+  top: 50%;
+  left: 43%;
+}
+
+#admin_button:hover { background: rgb(136, 37, 219); }
+#admin_button:active {
+  background: rgb(88, 30, 160);
+  box-shadow: 0 3px rgb(88, 30, 160) inset;
+}
+
+a.home {
+  color: #fff;
+  user-select: none;
+  background: rgb(212,75,56);
+  padding: .7em 1.5em;
+  position: absolute;
+  top: 10px;
+}
+a.home:hover { background: rgb(232,95,76); }
+a.home:active { background: rgb(152,15,0); }
+
+
+#send1 {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  position: absolute;
+  top: 400px;
+
+  cursor: pointer;
+  color: #fff;
+  user-select: none;
+  background: rgb(111, 214, 118);
+  padding: .7em 1.2em;
+  outline: none;
+}
+#send1:hover { background: rgb(117, 229, 124); }
+#send1:active { background: rgb(72, 142, 77); }
+
+#send2 {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  position: absolute;
+  top: 150px;
+
+  cursor: pointer;
+  color: #fff;
+  user-select: none;
+  background: rgb(111, 214, 118);
+  padding: .7em 1.2em;
+  outline: none;
+}
+#send2:hover { background: rgb(117, 229, 124); }
+#send2:active { background: rgb(72, 142, 77); }
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%  таблица  %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.table {
+  width: 90%;
+  background-color: #e3ecfc;
+  padding-left: 2%;
+  padding-right: 2%;
+  position: relative;
+  top: 250px;
+  left: 2.5%;
+}
+
+.id_tab {
+  background-color: rgb(166, 207, 216);
+  width: 5%;
+  margin: 1.5px;
+  text-align: center;
+  display: inline-block;
+}
+
+.fio_tab {
+  background-color: rgb(166, 207, 216);
+  width: 93%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin: 1px;
+}
+
+.text_tab {
+  width: 98.3%;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 2px;
+  margin-right: 5px;
+  background-color: rgb(247, 253, 255);
+}
